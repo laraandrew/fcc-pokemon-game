@@ -17,7 +17,6 @@ body {
     transition: background 0.5s, transform 0.5s;
     max-width: 600px;
     width: 100%;
-    margin: 20px;
     overflow-y: auto;
   }
   
@@ -68,6 +67,10 @@ body {
   
   .pokemon-info {
     margin-top: 20px;
+    display: flex;
+    gap: 4em;
+    justify-content: space-evenly;
+    align-items: center;
   }
   
   .pokemon-info img {
@@ -78,6 +81,15 @@ body {
   .pokemon-info p, .pokemon-info h2 {
     margin: 5px 0;
   }
+
+  .stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+  }
+
   
   #types {
     display: flex;
@@ -92,13 +104,14 @@ body {
     border-radius: 5px;
   }
   
-  .footer {
+  footer {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
     background: linear-gradient(90deg, #182848, #4b6cb7);
     font-size: 20px;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
   }
   
   .footer a {

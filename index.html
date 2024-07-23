@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokémon Search App</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="poke-icon.ico">
+  <link rel="icon" href="pokemon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,23 +16,28 @@
       <button id="search-button">Search</button>
     </div>
     <div class="pokemon-info">
-      <h2 id="pokemon-name"></h2>
-      <img id="sprite" src="" alt="">
-      <p id="pokemon-id"></p>
-      <p id="weight"></p>
-      <p id="height"></p>
-      <div id="types"></div>
-      <p>HP: <span id="hp"></span></p>
-      <p>Attack: <span id="attack"></span></p>
-      <p>Defense: <span id="defense"></span></p>
-      <p>Special Attack: <span id="special-attack"></span></p>
-      <p>Special Defense: <span id="special-defense"></span></p>
-      <p>Speed: <span id="speed"></span></p>
-    </div>
-    <div class="footer">
-      <p>Andrew Lara - <a href="https://github.com/laraandrew" target="_blank"><img src="github-logo.ico" alt="GitHub" class="github-logo"></a></p>
+      <div class="info">
+        <h2 id="pokemon-name"></h2>
+        <img id="sprite" src="" alt="">
+        <p id="pokemon-id"></p>
+        <p id="weight"></p>
+        <p id="height"></p>
+        <div id="types"></div>
+      </div>
+      <div class="stats">
+        <p>HP: <span id="hp"></span></p>
+        <p>Attack: <span id="attack"></span></p>
+        <p>Defense: <span id="defense"></span></p>
+        <p>Special Attack: <span id="special-attack"></span></p>
+        <p>Special Defense: <span id="special-defense"></span></p>
+        <p>Speed: <span id="speed"></span></p>
+      </div>
+      
     </div>
   </div>
+  <footer>
+    <p>Andrew Lara - <a href="https://github.com/laraandrew" target="_blank"><img src="github-logo.ico" alt="GitHub" class="github-logo"></a></p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
